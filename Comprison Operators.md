@@ -26,6 +26,8 @@ WHERE age >= 30 and age <= 50 AND income < 50000;
 
 ##### What is the average income between the ages of 20 and 50? 
 
+```python
 SELECT AVG(income)
 FROM customers
 WHERE age > 20 and age < 50;
+```
